@@ -1,0 +1,74 @@
+{
+  "oneProduct":
+  [
+    {
+      "Product": "NonPurposedLoan",
+      "ChampionChallenger": "Champion",
+      "Result": "Eligible",
+      "Reason for Result Internal": {},
+      "Reason for Result Client": {},
+      "Rule": "Age"
+    },
+    {
+      "Product": "NonPurposedLoan",
+      "ChampionChallenger": "Champion",
+      "Result": "Non Eligible",
+      "Reason for Result Internal": "Delinquency1",
+      "Reason for Result Client": "Delinquency",
+      "Rule": "Delinquency"
+    },
+    {
+      "Product": "NonPurposedLoan",
+      "ChampionChallenger": "Champion",
+      "Result": "Eligible",
+      "Reason for Result Internal": {},
+      "Reason for Result Client": {},
+      "Rule": "Bureau Score"
+    },
+    {
+      "Product": "NonPurposedLoan",
+      "ChampionChallenger": "Champion",
+      "Result": "Eligible",
+      "Reason for Result Internal": {},
+      "Reason for Result Client": {},
+      "Rule": "Income Source"
+    }
+  ]
+  ,
+  "allProducts":
+  [
+    {
+      "Product": "NonPurposedLoan",
+      "ChampionChallenger": "Champion",
+      "Result": "Non Eligible",
+      "Reason for Result Internal": "Delinquency1",
+      "Reason for Result Client": "Delinquency",
+      "Rule": "Delinquency"
+    },
+    {
+      "Product": "PurposedLoan",
+      "ChampionChallenger": "Challenger1",
+      "Result": "Eligible",
+      "Reason for Result Internal": {},
+      "Reason for Result Client": {},
+      "Rule": {}
+    },
+    {
+      "Product": "CreditCard",
+      "ChampionChallenger": "Champion",
+      "Result": "Non Eligible",
+      "Reason for Result Internal": "No Use",
+      "Reason for Result Client": "Internal rules",
+      "Rule": {}
+    },
+    {
+      "Product": "Revolving",
+      "ChampionChallenger": "Champion",
+      "Result": "Not possible to evaluate",
+      "Reason for Result Internal": {},
+      "Reason for Result Client": {},
+      "Rule": {}
+    }
+  ]
+}
+
